@@ -1,8 +1,6 @@
 # Org Prompt
 
-Very simple utility that displays your current Salesforce Default Org and Default Dev Hub in your Terminal prompt.
-
-By default, only the Default Org is displayed. If you want to display both just pass the flag like this `org -devhub`.
+Simple utility that displays your current Salesforce Default Org and Default Dev Hub in your Terminal prompt.
 
 ![Example](images/example.png)
 
@@ -22,3 +20,5 @@ By default, only the Default Org is displayed. If you want to display both just 
    DIR="%{$fg[blue]%}%3~%{$reset_color%}"
    PROMPT='$DIR $ORG'
    ```
+
+By default, only the Default Org is displayed. If you want to display both the Default Org and Default Dev Hub just pass this flag `org -devhub`.
