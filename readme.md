@@ -1,6 +1,6 @@
 # Org Prompt
 
-Simple utility that displays your current Salesforce Default Org and Default Dev Hub in your Terminal prompt.
+Display your Salesforce project Default Org, and Default Dev Hub in your Terminal.
 
 ![Example](images/example.png)
 
